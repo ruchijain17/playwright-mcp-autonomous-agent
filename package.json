@@ -19,7 +19,7 @@
   "author": "Ruchi Jain",
   "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.8.0",
+    "@modelcontextprotocol/sdk": "^1.32.2",
     "zod": "^3.23.0"
   },
   "devDependencies": {
