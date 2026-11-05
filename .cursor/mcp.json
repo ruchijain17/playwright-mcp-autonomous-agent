@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "playwright-autonomous": {
+      "command": "node",
+      "args": ["mcp-server.mjs"],
+      "cwd": "C:/Users/Ruchi Jain/Documents/success/playwright-mcp-autonomous-agent"
+    }
+  }
+}
