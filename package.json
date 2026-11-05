@@ -1,0 +1,31 @@
+{
+  "name": "playwright-mcp-autonomous-agent",
+  "version": "0.1.0",
+  "description": "Autonomous Playwright MCP agent - from 0% to 65% E2E coverage",
+  "type": "module",
+  "main": "dist/mcp-server/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/mcp-server/index.js",
+    "dev": "tsx src/mcp-server/index.ts",
+    "inspector": "npx @modelcontextprotocol/inspector dist/mcp-server/index.js"
+  },
+  "keywords": [
+    "playwright",
+    "mcp",
+    "autonomous-agent",
+    "e2e"
+  ],
+  "author": "Ruchi Jain",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^20.12.0",
+    "tsx": "^4.9.0",
+    "typescript": "^5.4.0"
+  }
+}
